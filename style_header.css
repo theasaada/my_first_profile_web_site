@@ -1,0 +1,31 @@
+nav {
+	border-radius: 0px;
+	list-style-type: none;
+	margin: 0px;
+	margin-top: 60px;
+	padding: 8;
+	overflow: hidden;
+	text-align: center;
+	background-color: rgb(213, 86, 59) ;
+
+	font-family: 'Open Sans', sans-serif; font-size: 20px; font-weight: 600;
+}
+
+{
+	float: center;
+}
+
+nav a {
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	margin: 0 15px; 
+	transition: color 0.3s ease-in-out;
+}
+
+/* Change the link color to #111 (black) on hover */
+nav a:hover {
+	color: rgb(190, 190, 190);
+}
+
