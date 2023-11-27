@@ -1,71 +1,321 @@
+<!DOCTYPE html>
 <html>
 
 <head>
-	<link rel="stylesheet" href="style_header.css">
-	<link rel="stylesheet" href="style_images.css">
-	<link rel="stylesheet" href="styles.css">
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <link rel="icon" href="images/favicon.png" type="image/gif" />
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
 
-	<body>
-		<nav>
-			<a href="index.html">HOME</a>
-			<a href="hobby.html">HOBBIES</a>
-			<a href="about.html">ABOUT</a>
-			<a href="contact.html">CONTACT</a>
-		</nav>
-	</body>
-	
+  <title>My WEB Site</title>
+
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+  <!-- font awesome style -->
+  <link href="css/font-awesome.min.css" rel="stylesheet" />
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
+
 </head>
 
 <body>
 
-	<div class="container2">
+  <!-- header section strats -->
+  <header class="header_section">
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg custom_nav-container">
+        <a class="navbar-brand" href="index.html">
+        </a>
+        <div class="" id="">
 
-		<h2>Traveling Gallery</h2>	
-		<div class="image-row">
-			
-			<a href="images/Traveling4.jpg" target="_blank">
-			<img src="images/Traveling4.jpg" alt="Traveling4">
-			</a>
-			<a href="images/Traveling2.jpg" target="_blank">
-			<img src="images/Traveling2.jpg" alt="Traveling2">
-			</a>
-			<a href="images/Traveling5.jpg" target="_blank">
-			<img src="images/Traveling5.jpg" alt="Traveling5">
-			</a>
-			
-			<p> <hr/> </p>
-			
-			<!-- Add more images as needed -->
-			<a href="images/Thai2.jpg" target="_blank">
-			<img src="images/Thai2.jpg" alt="Thai2">
-			</a>
-			<a href="images/Thai3.jpg" target="_blank">
-			<img src="images/Thai3.jpg" alt="Thai2">
-			</a>
-			<a href="images/Thai4.jpg" target="_blank">
-			<img src="images/Thai4.jpg" alt="Thai2">
-			</a>
+          <div class="custom_menu-btn">
+            <button onclick="openNav()">
+              <span class="s-1"> </span>
+              <span class="s-2"> </span>
+              <span class="s-3"> </span>
+            </button>
+            <div id="myNav" class="overlay">
+              <div class="overlay-content">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="blog.html">Hobby</a>
+				<a href="family.html">Family</a>
+				<a href="contact.html">Contact</a>
+              </div>
+            </div>
+          </div>
 
-			<p> <hr/> </p>
-			
-			<!-- Add more images as needed -->
-			<a href="images/Far East5.jpg" target="_blank">
-			<img src="images/Far East5.jpg" alt="Far East5">
-			</a>
-			<a href="images/Far East6.jpg" target="_blank">
-			<img src="images/Far East6.jpg" alt="Far East6">
-			</a>
-			<a href="images/Far East7.jpg" target="_blank">
-			<img src="images/Far East7.jpg" alt="Far East7">
-			</a>
-			<a href="images/Far East8.jpg" target="_blank">
-			<img src="images/Far East8.jpg" alt="Far East8">
-			</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <!-- end header section -->
 
-			<p> <hr/> </p>
-		</div>
+  <!-- traveling section -->
+  <section class="shop_section layout_padding">
+    <div class="container">
+      <div class="heading_container heading_center">
+        <h2>
+          Special gallery from Far East trip
+        </h2>
+      </div>
+      <div class="row">
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <div class="box">
+            <a href="images/Thai2.jpg">
+              <div class="img-box">
+                <img src="images/Thai2.jpg" alt="">
+              </div>
+              <div class="detail-box">
+                <h6>
+                  Thailand
+                </h6>
+               </div>
+             </a>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <div class="box">
+            <a href="images/Thai3.jpg">
+              <div class="img-box">
+                <img src="images/Thai3.jpg" alt="">
+              </div>
+              <div class="detail-box">
+                <h6>
+                  Thailand
+                </h6>
+               </div>
+             </a>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <div class="box">
+            <a href="images/Thai4.jpg">
+              <div class="img-box">
+                <img src="images/Thai4.jpg" alt="">
+              </div>
+              <div class="detail-box">
+                <h6>
+                  Thailand
+                </h6>
+               </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <div class="box">
+            <a href="images/FarEast1.jpg">
+              <div class="img-box">
+                <img src="images/FarEast1.jpg" alt="">
+              </div>
+              <div class="detail-box">
+                <h6>
+                  South Korea
+                </h6>
+               </div>
+             </a>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <div class="box">
+            <a href="images/FarEast2.jpg">
+              <div class="img-box">
+                <img src="images/FarEast2.jpg" alt="">
+              </div>
+              <div class="detail-box">
+                <h6>
+                  South Korea
+                </h6>
+                </div>
+             </a>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <div class="box">
+            <a href="images/FarEast3.jpg">
+              <div class="img-box">
+                <img src="images/FarEast3.jpg" alt="">
+              </div>
+              <div class="detail-box">
+                <h6>
+                  South Korea
+                </h6>
+                 </div>
+             </a>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <div class="box">
+            <a href="images/FarEast4.jpg">
+              <div class="img-box">
+                <img src="images/FarEast4.jpg" alt="">
+              </div>
+              <div class="detail-box">
+                <h6>
+                  South Korea
+                </h6>
+              </div>
+              </a>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <div class="box">
+            <a href="images/korea.jpg">
+              <div class="img-box">
+                <img src="images/korea.jpg" alt="">
+              </div>
+              <div class="detail-box">
+                <h6>
+                  South Korea 
+  			    </h6>
+               </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <div class="box">
+            <a href="images/FarEast6.jpg">
+              <div class="img-box">
+                <img src="images/FarEast6.jpg" alt="">
+              </div>
+              <div class="detail-box">
+                <h6>
+                  Taiwan
+                </h6>
+               </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <div class="box">
+            <a href="images/FarEast7.jpg">
+              <div class="img-box">
+                <img src="images/FarEast7.jpg" alt="">
+              </div>
+              <div class="detail-box">
+                <h6>
+                  Taiwan
+                </h6>
+               </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <div class="box">
+            <a href="images/FarEast8.jpg">
+              <div class="img-box">
+                <img src="images/FarEast8.jpg" alt="">
+              </div>
+              <div class="detail-box">
+                <h6>
+                  Taiwan
+                </h6>
+               </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <div class="box">
+            <a href="images/Thai10.jpg">
+              <div class="img-box">
+                <img src="images/Thai10.jpg" alt="">
+              </div>
+              <div class="detail-box">
+                <h6>
+                  Vietnam
+                </h6>
+               </div>
+            </a>
+          </div>
+        </div>
+		
+      </div>
+      </div>
+  </section>
+  <!-- end traveling section -->
 
-	</div>
+  <!-- info section -->
+  <section class="info_section layout_padding2">
+    <div class="container">
+      <div class="row info_form_social_row">
+         <div class="col-md-4 col-lg-3">
+
+          <div class="social_box">
+            <a href="https://www.facebook.com/thea.saada">
+              <i class="fa fa-facebook" aria-hidden="true"></i>
+            </a>
+            <a href="https://www.instagram.com/theodoras_s">
+              <i class="fa fa-instagram" aria-hidden="true"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/thea-saada-3b689b3/">
+              <i class="fa fa-linkedin" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="row info_main_row">
+        <div class="col-md-6 col-lg-3">
+          <div class="info_links">
+            <h4>
+              Menu
+            </h4>
+            <div class="info_links_menu">
+              <a href="index.html">Home</a>
+              <a href="about.html">About</a>
+              <a href="blog.html">Hobby</a>
+              <a href="family.html">Family</a>
+			  <a href="contact.html">Contact</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="info_detail">
+            <h4>
+              About Me
+            </h4>
+            <p class="mb-0">
+              Experience as an Embedded Software Engineer, B.Sc. in Computer Sciences.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <h4>
+            Contact Me
+          </h4>
+          <div class="info_contact">
+			  <i class="fa fa-map-marker" aria-hidden="true"></i>
+			  <span>
+				Location: Yam hamelach 30, Ganey Tikva<br/>
+			  </span>
+			  <i class="fa fa-phone" aria-hidden="true"></i>
+			  <span>
+				Phone: +972 547310315<br/>
+			  </span>
+			  <i class="fa fa-envelope"></i>
+			  <span>
+				Email: theasa@gmail.com<br/>
+			  </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- footer section -->
+
+  <!-- jQery -->
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <!-- bootstrap js -->
+  <script src="js/bootstrap.js"></script>
+  <!-- custom js -->
+  <script src="js/custom.js"></script>
 
 </body>
 

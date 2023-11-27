@@ -1,48 +1,138 @@
+<!DOCTYPE html>
 <html>
 
 <head>
-	<link rel="stylesheet" href="style_header.css">
-	<link rel="stylesheet" href="style_images.css">
-	<link rel="stylesheet" href="styles.css">
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <link rel="icon" href="images/favicon.png" type="image/gif" />
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
 
+  <title>My Web Site</title>
 
-	<body>
-		<nav>
-			<a href="index.html">HOME</a>
-			<a href="hobby.html">HOBBIES</a>
-			<a href="about.html">ABOUT</a>
-			<a href="contact.html">CONTACT</a>
-		</nav>
-	</body>
-		
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+  <!-- font awesome style -->
+  <link href="css/font-awesome.min.css" rel="stylesheet" />
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
+
 </head>
 
 <body>
-    <h2>You're welcome to contact me at any time</h2>
 
-	<div class="container1">
-		<div class="text-section">
+  <!-- header section strats -->
+  <header class="header_section">
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg custom_nav-container">
+        <a class="navbar-brand" href="index.html">
+        </a>
+        <div class="" id="">
 
-			<p> <b>Name:</b> Thea Saada </p>
-			<p> <b>Phone:</b> 0547310315 </p>
-			<p> <b>Email:</b> theasa@gmail.com </p>
-			<p> <b>Location:</b> Yam Hamelach 30, Ganey Tikva</p>
-			<p><i>Click the picture for my LinkedIN profile </i></p>
-			
-		</div>
-		<div class="image-section">
-			<a target="_blank" href="https://www.linkedin.com/in/thea-saada-3b689b3/" class="colored-link">
-			<img src="images/LinkedIN.jpg" alt="LinkedIN">
-			</a>
-		</div>
-	</div>
-	<p> <hr/> </p>
-	<div class="social-media-links">
-	<a href="https://www.facebook.com/TheaSaada" target="_blank"><i class="fab fa-facebook-square"></i></a>
-	<a href="https://twitter.com/TheaSaada" target="_blank"><i class="fab fa-twitter-square"></i></a>
-	<a href="https://www.instagram.com/theodoras_s" target="_blank"><i class="fab fa-instagram-square"></i></a>
-	<!-- Add more social media links/icons as needed -->
-	</div>
+          <div class="custom_menu-btn">
+            <button onclick="openNav()">
+              <span class="s-1"> </span>
+              <span class="s-2"> </span>
+              <span class="s-3"> </span>
+            </button>
+            <div id="myNav" class="overlay">
+              <div class="overlay-content">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="blog.html">Hobby</a>
+				<a href="family.html">Family</a>
+				<a href="contact.html">Contact</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </nav>
+    </div>
+  </header>
+  <!-- end header section -->
+
+  <!-- info section -->
+  <section class="info_section layout_padding2">
+    <div class="container">
+      <div class="row info_form_social_row">
+         <div class="col-md-4 col-lg-3">
+
+          <div class="social_box">
+            <a href="https://www.facebook.com/thea.saada">
+              <i class="fa fa-facebook" aria-hidden="true"></i>
+            </a>
+            <a href="https://www.instagram.com/theodoras_s">
+              <i class="fa fa-instagram" aria-hidden="true"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/thea-saada-3b689b3/">
+              <i class="fa fa-linkedin" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="row info_main_row">
+        <div class="col-md-6 col-lg-3">
+          <div class="info_links">
+            <h4>
+              Menu
+            </h4>
+            <div class="info_links_menu">
+              <a href="index.html">Home</a>
+              <a href="about.html">About</a>
+              <a href="blog.html">Hobby</a>
+              <a href="family.html">Family</a>
+			  <a href="contact.html">Contact</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="info_detail">
+            <h4>
+              Contact Me
+            </h4>
+            <p class="mb-0">
+              Experience as an Embedded Software Engineer, B.Sc. in Computer Sciences.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <h4>
+            Contact Me
+          </h4>
+          <div class="info_contact">
+			  <i class="fa fa-map-marker" aria-hidden="true"></i>
+			  <span>
+				Location: Yam hamelach 30, Ganey Tikva<br/>
+			  </span>
+			  <i class="fa fa-phone" aria-hidden="true"></i>
+			  <span>
+				Phone: +972 547310315<br/>
+			  </span>
+			  <i class="fa fa-envelope"></i>
+			  <span>
+				Email: theasa@gmail.com<br/>
+			  </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end info_section -->
+
+  <!-- jQery -->
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <!-- bootstrap js -->
+  <script src="js/bootstrap.js"></script>
+  <!-- custom js -->
+  <script src="js/custom.js"></script>
 
 </body>
 
